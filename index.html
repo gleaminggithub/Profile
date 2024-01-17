@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MDB -->
+    <!-- MDB CSS -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.1.0/mdb.min.css" rel="stylesheet"> -->
+
+<!-- MDB JavaScript (bundle includes Popper.js) -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.1.0/mdb.min.js"></script> -->
+<!-- bootstrap css -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- css bootstrap -->
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+     <!-- bootstrap icons -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+            <!-- Google font -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <!-- swiper cdn link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+            <!-- css link -->
+      <link rel="stylesheet" href="style.css">
+      <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="Home-page p-1 p-sm-5" id="Home-page">
+        <nav class="navbar navbar-expand-lg navbar-light scrolling-navbar bg-purple rounded " data-reveal="left" data-reveal-delay="0.50s">
+            <div class="container-fluid d-flex overflow-hidden">
+              <a class="navbar-brand py-1 ms-4" href="#"><span class="text-light"><img src="./images/man.png" class="img-fluid logo">Portfolio</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNavDropdown">
+                <ul class= "navbar-nav mb-2 mb-lg-0 align-items-center smooth-scroll">
+                  <li class="nav-item ms-4">
+                      <a class="nav-link text-white" id="home" aria-current="page" href="#Home-page">Home</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link text-white" href="#About-page">About</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link text-white" href="#Services-page">Services</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link text-white" href="#portfolio-section">Project</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link text-white" href="#Blog-page">Blogs</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link text-white" href="#contact-form">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      <div class="container-fluid mt-sm-5">
+        <div class="row  my-5 align-items-center justify-content-center" style="gap:9%;">
+        <div class="col col-6 col-md-4 col-xl-3">
+          <figure>
+            <img class="img-fluid card my-md-5 my-2 mx-2 bg-transparent border-0" src="images/Profile.jpg" alt="home_pic" data-reveal="left" data-reveal-delay="0.60s">
+          </figure>
+        </div>
+        <div class="col mb-2 col-10 col-md-6 my-md-5 px-sm-5 px-3">
+            <h1 class="position-relative mt-sm-5 mt-3 text-light pt-4" data-reveal="right" data-reveal-delay="0.80s">I'm Software Developer & Full Stack Developer</h1>
+            <!-- <h3 ><span class="btn-text-color"></span></h3> -->
+            <h5 class="mb-sm-4 mb-2 pb-4"><span class="text-skywhite" data-reveal="bottom" data-reveal-delay="0.90s">👋 Hello! I'm Prince Keshari a dedicated Software Developer and aspiring Web Developer with a passion for crafting exceptional digital experiences.</span></h5>
+            <div class="m-sm-5 mt-2 d-flex justify-content-center">
+              <a class="btn btn-secondary  py-1 px-4 text-white" href="" data-reveal="left" data-reveal-delay="1s"><h5>Preview CV</h5></a>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+   <section class="container-fluid" id="stats">
+      <div class="row justify-content-center align-items-center" >
+        <div class="col col-lg-5 col-5 bio-data mt-5 box-size card-size card"data-reveal="left" data-reveal-delay="0.40s">
+          <div class="my-bio-data">
+            <h1 class="text-aquamarine mt-2 mb-2">Skill Set</h1>
+            <p class="para">I rapidly acquire new skills by leveraging curiosity, adaptability, and efficient information processing, facilitating quick comprehension and application in diverse learning environments.</p>
+        </div>
+        </div>
+        <div class="col stats-box justify-content-center">
+          
+          <div class="row flex-direction-column mt-4">
+            <div class="progress my-3">
+              <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress my-3">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress my-3">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress my-3">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress my-3">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+          <!-- <div class="col bio-data-stats">
+            <h3 class="fs-6 display-4 mt-2 text-secondary">Design</h3>
+            <div class="bio-data-progess progress-1">
+              <span class="mark-1">80%</span>
+            </div>
+          </div>
+          <div class="col bio-data-stats">
+            <h3 class="fs-6 display-4 mt-2 text-secondary">HTML</h3>
+            <div class="bio-data-progess progress-2">
+              <span class="mark-2">95%</span>
+            </div>
+          </div>
+          <div class="col bio-data-stats">
+            <h3 class="fs-6 display-4 mt-2 text-secondary">CSS</h3>
+            <div class="bio-data-progess progress-3">
+              <span class="mark-3">85%</span>
+            </div>
+          </div>
+          <div class="col bio-data-stats">
+            <h3 class="fs-6 display-4 mt-2 text-secondary">Javascript</h3>
+            <div class="bio-data-progess progress-4">
+              <span class="mark-4">70%</span>
+            </div>
+          </div>
+          <div class="col bio-data-stats">
+            <h3 class="fs-6 display-4 mt-2 text-secondary">ReactJs</h3>
+            <div class="bio-data-progess progress-5">
+              <span class="mark-5">90%</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="col col-6 col-sm-5">
+        <figure>
+          <img src="./images/about.png" alt="bio-pic" class="img-fluid about-img p-sm-2 p-lg-5 m-sm-2" data-reveal="right" data-reveal-delay="0.40s">
+        </figure>
+      </div>
+    </div>
+   </section>
+    <section class="container-fluid p-sm-5 p-3" id="education">
+      <div class="row"> 
+        <div class="col col-10 mx-2 mx-sm-5 p-3 p-sm-4">
+          <h1 class="mb-4"><img src="./images/scholarship.png" class="img-fluid mx-3 logo "/>My Education</h1>
+          <p class="mb-4 para">Possessing robust problem-solving skills, adept at effectively communicating complex ideas, and maintaining a disciplined approach to learning. Demonstrated excellence in academic endeavors, showcasing the ability to analyze, strategize, and communicate solutions effectively in diverse educational settings.
+         </p>
+        </div>
+      </div>
+      <div class="row p-sm-5 p-1 justify-content-center align-items-center">
+        <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+          <div class="card card_prop img-overlay " data-reveal="left" data-reveal-delay="0.40s">
+            <img src="./images/high_school.jpg" alt="Image Description" class="portfolio-img">
+            <div class="card-body">
+              <h5 class="card-title">High School</h5>
+              <p class="card-text m-0">Session: 2017-18</p>
+              <p class="card-text m-0">Secured: 90%</p>
+              <p class="card-text">Happy Model School</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+          <div class="card card_prop img-overlay " data-reveal="bottom" data-reveal-delay="0.40s">
+            <img src="./images/intermediate_school.jpeg" alt="Image Description" class="portfolio-img">
+            <div class="card-body">
+              <h5 class="card-title">Intermediate School</h5>
+              <p class="card-text m-0">Session: 2019-20</p>
+              <p class="card-text m-0">Secured: 93.6%</p>
+              <p class="card-text">Happy Model School</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+          <div class="card card_prop img-overlay" data-reveal="right" data-reveal-delay="0.40s">
+            <img src="./images/college.jpeg" alt="Image Description" class="portfolio-img">
+            <div class="card-body">
+              <h5 class="card-title">Graduation</h5>
+              <p class="card-text m-0">2021-Present</p>
+              <p class="card-text m-0">Secured: 8.78GPA</p>
+              <p class="card-text">Harcourt Butler Technical University</p>
+            </div>
+          </div>
+        </div>
+</div>
+    </section>
+    <!-- <section class="services-offers container-fluid p-sm-5 p-3" id="Services-page">
+          <div class="row"> 
+            <div class="col col-10 mx-2 mx-sm-5 p-3 p-sm-4">
+              <h1 >Services Offers</h1><span class="material-symbols-outlined">
+                line_start
+                </span>
+              <p class="mb-4 para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur consequatur sequi corrupti.</p>
+            </div>
+          </div>
+              <div class="row p-sm-5 p-1 justify-content-center align-items-center">
+                  <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+                  <div class="card card-size me-4">
+                  <ion-icon name="desktop-sharp" class="icon-change"></ion-icon>
+                  <h3 class="m-1">Web Design</h3>
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>  
+              <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+              <div class="card card-size me-4" >
+                  <ion-icon name="camera-sharp" class="icon-change"></ion-icon>
+                  <h3 class="m-1">Photo graphy</h3>
+                  <div class="card-body ms-2 mb-2">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+                <div class="card card-size me-4">
+                  <ion-icon name="laptop-outline" class="icon-change"></ion-icon>
+                  <h3 class="m-1">Apps Interface</h3>
+                  <div class="card-body ms-2 mb-2">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+               
+              <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+                <div class="col card card-size me-4">
+                  <ion-icon name="image-sharp" class="icon-change"></ion-icon>
+                  <h3 class="m-1">Graphic Design</h3>
+                  <div class="card-body ms-2 mb-2">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  </div>
+                </div>
+              <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+                <div class="card card-size me-4">
+                    <ion-icon name="logo-web-component" class="icon-change"></ion-icon>
+                    <h3 class="m-1">Web Development</h3>
+                    <div class="card-body ms-2 mb-2">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+                <div class="card card-size me-4">
+                      <ion-icon name="logo-google-playstore" class="icon-change"></ion-icon>
+                      <h3 class="m-1">Mobile App</h3>
+                      <div class="card-body ms-2 mb-2">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div> 
+                    </div>
+              </div>
+    </section> -->
+    <section class="portfolio-section container-fluid p-sm-5 p-3" id="Project">
+      <div class="row"> 
+        <div class="col col-10 mx-2 mx-sm-5 p-3 p-sm-4">
+          <h1 ><img src="./images/start-up.png" class="img-fluid logo mx-3">Project</h1>
+          <p class="mb-4 para">Created a dynamic web app using React.js for frontend, integrated MongoDB, and employed JavaScript to craft responsive interfaces. Implemented API endpoints, highlighting full-stack proficiency and adeptness in these technologies.</p>
+        </div>
+   <div class="row d-flex flex-row justify-content-center btns">
+   </div>
+  </div>
+   <div class="row p-sm-5 p-1 justify-content-center align-items-center">
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+      <div class="card card_prop img-overlay" data-reveal="left" data-reveal-delay="0.30s">
+        <img src="https://img.freepik.com/premium-vector/mobile-phone-with-sms-notifications-flat-design_161534-16.jpg?size=626&ext=jpg&uid=R106754735&ga=GA1.1.1059388521.1704717679&semt=ais" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="" class="text-decoration-none"><h3 class="text-uppercase text-secondary">ChatApp</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+      <div class="card card_prop img-overlay" data-reveal="top" data-reveal-delay="0.40s">
+        <img src="https://img.freepik.com/premium-vector/notebook-page-with-note-with-clip_603843-118.jpg?size=626&ext=jpg&uid=R106754735&ga=GA1.1.1059388521.1704717679&semt=ais" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="https://www.google.com/" class="text-decoration-none"><h3 class="text-uppercase text-secondary">Keep Notes</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+      <div class="card card_prop img-overlay" data-reveal="right" data-reveal-delay="0.50s">
+        <img src="https://img.freepik.com/premium-vector/modern-minimal-mobile-app-ui-interface-kit-weather-forecast-3d-glassmorphism-design_317810-5201.jpg?size=626&ext=jpg&uid=R106754735&ga=GA1.1.1059388521.1704717679&semt=ais" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="https://www.google.com/" class="text-decoration-none"><h3 class="text-uppercase text-secondary">Weather</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3 ms-lg-4">
+      <div class="card card_prop img-overlay" data-reveal="left" data-reveal-delay="0.30s">
+        <img src="https://img.freepik.com/free-vector/minimalist-cv-template_23-2148899951.jpg?size=626&ext=jpg&uid=R106754735&ga=GA1.1.1059388521.1704717679&semt=ais" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="https://www.google.com/ " class="text-decoration-none"><h3 class="text-uppercase text-secondary">Portfolio</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+      <div class="card card_prop img-overlay" data-reveal="bottom" data-reveal-delay="0.40s">
+        <img src="https://picsum.photos/200/200" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="https://www.google.com/" class="text-decoration-none"><h3 class="text-uppercase text-secondary">Project 5</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="col col-7 col-sm-6 col-md-5 col-lg-3">
+      <div class="card card_prop img-overlay" data-reveal="right" data-reveal-delay="0.50s">
+        <img src="https://picsum.photos/200/200" alt="Image Description" class="portfolio-img">
+        <div class="overlayout">
+          <a href="https://www.google.com/" class="text-decoration-none"><h3 class="text-uppercase text-secondary">Project 6</h3></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+   <!-- Blogs section  -->
+   <section class="blogs-section container-fluid p-sm-5 p-3" id="Blog-page">
+    <div class="row"> 
+      <div class="col col-10 mx-2 mx-sm-5 p-3 p-sm-4">
+        <h1><img src="./images/achievement.png" class="img-fluid logo mx-3">Achievement</h1>
+      </div>
+      <div class="row justify-content-center align-items-center ms-3">
+        <div class="col col-12 col-sm-10">
+          <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="client-msg">
+                    <p class="line-height-2">I am pleased to share that I secured a rank of 14,486 in JEE Mains 2021.</p>
+                  </div>                     
+              </div>
+                <div class="swiper-slide">
+                  <div class="client-msg">
+                    <p>I secured a commendable 2221st rank out of 25,000+ participants in Codeforces Round 912 div.2</p>
+                  </div>
+            </div>
+        <div class="swiper-slide ">
+          <div class="client-msg">
+            <p>I have solved over 600+ problems across multiple renowned coding platforms,including GeeksforGeeks, Codeforces, CodeChef ,Leetcode</p>
+          </div>
+    </div>
+          </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="parallax_effect container-fluid " id="Contact">
+    <div class="row m-0">
+      <div class="visibility">
+      <h3 class="parallax-span">I am <span>available</span> for freelancing</h3>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusamus nemo velit optio</p>
+      <a class="btn btn-info py-2 px-3 " href="#">Hire Me</a>
+    </div>
+  </div>
+</section>
+<section class="contact-us container-fluid p-sm-5 p-3" id="ContactUs">
+  <div class="row"> 
+    <div class="col col-10 mx-2 mx-sm-5 p-3 p-sm-4">
+      <h1><img src="./images/email.png" class="img-fluid logo mx-3">Contact Us</h1>
+    </div>
+  </div>
+    <div class="row justify-content-center align-items-center">
+      <div class="card card-size box-size" data-reveal="bottom" data-reveal-delay="0.60s">
+        <form>
+          <div class="row row-cols-1">
+            <div class="col">
+              <label for="inputEmail4">Name:</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Your Name" >
+            </div>
+            <div class="col">
+              <label for="inputEmail">Email:</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="abc@gmail.com">
+            </div>
+          <div class="col">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" placeholder="subject...">
+          </div>
+          <div class="col">
+            <label for="textarea">Message:</label>
+            <textarea type="text" class="form-control textarea-size" id="textarea" placeholder="Message...."></textarea>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center my-3 mx-5">
+            <button type="submit" class="btn btn-outline-success btn-color mx-3" >Submit</button>
+          </div>
+        </form>
+      </div>
+  </div>
+</section>
+<footer class="footer container-fluid p-sm-5 p-3" id="footer">
+    <div class="row flex-row justify-content-center align-items-center">
+      <div class="col col-8 col-sm-5 col-lg-3">
+        <div class="footer-about">
+        <h4>About</h4>
+        <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col col-8 col-sm-5 col-lg-3">
+        <div class="links">
+          <h4>links</h4>
+          <ul type="none" class="p-0">
+            <li><a href="#" class=""><span class="material-symbols-outlined">
+              arrow_forward
+              </span>Home</a></li>
+            <li><span class="material-symbols-outlined">
+              arrow_forward
+              </span><a href="#" class="">About</a></li>
+            <li><span class="material-symbols-outlined">
+              arrow_forward
+              </span><a href="#" class="">Services</a></li>
+            <li><span class="material-symbols-outlined">
+arrow_forward
+</span><a href="#" class="">Portfolio</a></li>
+            <li><span class="material-symbols-outlined">
+arrow_forward
+</span><a href="#" class="">Blogs</a></li>
+            <li><span class="material-symbols-outlined">
+arrow_forward
+</span><a href="#" class="">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="col col-8 col-sm-5 col-lg-3">
+      <div class="footer-services">
+      <h4>Services</h4>
+      <ul type="none" class="p-0">
+        <li><span class="material-symbols-outlined">
+arrow_forward
+</span><a href="#" class="">Web Design</a></li>
+        <li><span class="material-symbols-outlined">
+arrow_forward
+</span><a href="#" class="">Web Development</a></li>
+        <li><span class="material-symbols-outlined ">
+arrow_forward
+</span><a href="#" class="">Mobile App</a></li>
+        <li><span class="material-symbols-outlined ">
+arrow_forward
+</span><a href="#" class="">Graphic Design</a></li>
+        <li><span class="material-symbols-outlined arrow-forward">
+arrow_forward
+</span><a href="#" class="">Photography</a></li>
+        <li><span class="material-symbols-outlined arrow-forward">
+arrow_forward
+</span><a href="#" class="">Apps Interface</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="col col-8 col-sm-5 col-lg-3">
+      <div class="footer-info">
+      <h4>Have a Question ?</h4>
+      <ul type="none" class="p-0">
+        <li>
+            <span><span class="material-symbols-outlined">
+              location_on
+              </span>Varanasi,Uttarpradesh</span>
+        </li>
+        <li>
+          <span><span class="material-symbols-outlined">
+            call
+            </span>+91 9555515036</span>
+        </li>
+        <li>
+          <span><span class="material-symbols-outlined">
+            contact_mail
+            </span>princekeshari756@gmail.com</span>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="contact-icons d-flex justify-content-center">
+        <div class="insta-icon"><i class="fa-brands fa-instagram icon-change m-3"></i></div>
+        <div class="face-icon"><i class="fa-brands fa-facebook icon-change m-3"></i></div>
+        <div class="youtube-icon"><i class="fa-brands fa-youtube icon-change m-3"></i></div>
+      </div>
+         <div class="text-center">
+          <p class="last-line">Copyright ©2023 All rights reserved! This template is made with ❤ Prince Keshari</p>
+         </div>
+    </div>
+</footer>
+<div class="scrollTop-style">
+  <div class="scroll-top">
+    <span class="material-symbols-outlined">
+      arrow_upward
+      </span>
+  </div>
+</div>
+    <!-- javascript bootstrap -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+<script>
+const revealElements = document.querySelectorAll("[data-reveal]");
+const revealDelayElements = document.querySelectorAll("[data-reveal-delay]");
+
+const reveal = function () {
+  for (let i = 0, len = revealElements.length; i < len; i++) {
+    if (revealElements[i].getBoundingClientRect().top < window.innerHeight / 1.2) {
+      revealElements[i].classList.add("revealed");
+    }
+  }
+}
+
+for (let i = 0, len = revealDelayElements.length; i < len; i++) {
+  revealDelayElements[i].style.transitionDelay = revealDelayElements[i].dataset.revealDelay;
+}
+
+window.addEventListener("scroll", reveal);
+window.addEventListener("load", reveal);
+
+
+
+</script>
+
+</body>
+</html>
